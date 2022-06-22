@@ -15,7 +15,7 @@ def equalto():
 def clear():
     entry.delete(0, tk.END)
 def clearonce():
-    entry.delete(0,tk.END)
+    entry.delete(-1) # currently looking for solution to only clear the last interger inputed into the entry Field
 
 
 window = tk.Tk()
